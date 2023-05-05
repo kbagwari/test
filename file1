@@ -2,3 +2,4 @@
 {{ hostvars[hosts].ansible_facts.ipv4_address }} {{ hostvars[hosts].ansible_facts.fqdn }} {{ hostvars[hosts].ansible_facts.hostname }}
 %endfor%
 
+This is second line
