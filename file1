@@ -1,0 +1,4 @@
+%for hosts if group.all%
+{{ hostvars[hosts].ansible_facts.ipv4_address }} {{ hostvars[hosts].ansible_facts.fqdn }} {{ hostvars[hosts].ansible_facts.hostname }}
+%endfor%
+
